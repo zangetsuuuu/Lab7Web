@@ -19,9 +19,7 @@ direktorinya (misal: `d:\xampp`).
 - **Konfigurasi Apache,** untuk konfigurasi HTTP server, seperti port yang digunakan akses HTTP, modul
 yang diaktifkan, lokasi document root, dll.
 Lokasi file: `c:/xampp/apache/conf/httpd.conf`
-
 - **Konfigrasi PHP,** untuk konfigurasi perilaku engine PHP yang berefek pada keamanan dan performa. Seperti batas maksimal waktu eksekusi script, batas file yang dapat diupload, error reporting, dll. Lokasi file: `c:/xampp/php/php.ini`
-
 - **Konfigrasi MySQL,** seperti administrator user, port, timezone, dll. Lokasi file: `c:/xampp/mysql/bin/my.ini`
 
 #### Menjalankan Web Server
@@ -30,11 +28,9 @@ Lokasi file: `c:/xampp/apache/conf/httpd.conf`
 http://127.0.0.1 atau http://localhost
 
     Tampil halaman utama XAMPP jika server sudah berkerja dengan baik.
-
 - Dokumen Website
 
     Semua file website tempatkan di direktori: `c:/xampp/htdocs/`
-    
 - Database MySQL
 
     Direktori: `c:/xampp/mysql`
@@ -44,7 +40,6 @@ http://127.0.0.1 atau http://localhost
 #### Memulai PHP
 
 - Buat folder **lab7_php_dasar** pada root directory web server `d:\xampp\htdocs`
-
 - Kemudian untuk mengakses direktori tersebut pada web server dengan mengakses URL: http://localhost/lab7_php_dasar/
 
 ---
@@ -52,7 +47,6 @@ http://127.0.0.1 atau http://localhost
 ### PHP Dasar
 
 - Buat file baru dengan nama `php_dasar.php` pada direktori tersebut. Kemudian buat kode seperti dibawah.
-
 - Untuk mengakses hasilnya melalui URL: http://localhost/lab7_php_dasar/php_dasar.php
 
 ```
@@ -78,7 +72,6 @@ http://127.0.0.1 atau http://localhost
 ### PHP Variable
 
 - Menambahkan variable pada program.
-
 - Nama variabel dalam PHP harus dimulai dengan tanda dollar ($) dan dapat berisi huruf, angka, atau garis bawah, dengan catatan bahwa nama variabel harus dimulai dengan huruf atau garis bawah.
 
 ```
@@ -112,7 +105,6 @@ http://127.0.0.1 atau http://localhost
 ### Predefine Variable $_GET
 
 - Dalam PHP, `$_GET` adalah salah satu variabel super global yang digunakan untuk mengumpulkan data yang dikirimkan ke server melalui parameter URL. Ketika pengguna mengirimkan data melalui formulir atau dengan menambahkan parameter pada URL, data tersebut dapat diakses dan diproses menggunakan `$_GET`.
-
 - Untuk mengaksesnya gunakan URL: 
 http://localhost/lab7_php_dasar/php_get.php?nama=Rafif
 
@@ -197,10 +189,8 @@ http://localhost/lab7_php_dasar/php_get.php?nama=Rafif
 ### PHP Kondisi
 
 - Dalam PHP, pernyataan kondisional if dan switch digunakan untuk membuat logika percabangan, yang memungkinkan program untuk menjalankan blok kode tertentu berdasarkan kebenaran atau kebenaran beberapa kondisi.
-
 - **IF Statement:**
 Pernyataan if digunakan untuk mengeksekusi blok kode jika suatu kondisi benar (true). 
-
 - **Switch Statement:**
 Pernyataan switch digunakan untuk membandingkan nilai ekspresi dengan sejumlah kasus dan mengeksekusi kode terkait dengan kasus yang cocok.
 
@@ -253,13 +243,10 @@ Pernyataan switch digunakan untuk membandingkan nilai ekspresi dengan sejumlah k
 ### PHP Perulangan
 
 - Perulangan atau looping adalah salah satu konsep dasar dalam pemrograman yang memungkinkan kita mengeksekusi serangkaian perintah berulang kali. Dalam PHP, terdapat tiga jenis perulangan utama: for, while, dan do-while.
-
 - For Loop (Perulangan For):
 Dalam perulangan for, kita menentukan tiga bagian utama: inisialisasi, kondisi, dan perubahan. Pertama, kita menetapkan nilai awal variabel kontrol (inisialisasi), kemudian menetapkan kondisi yang harus dipenuhi agar perulangan terus berlanjut, dan terakhir, mendefinisikan perubahan yang terjadi setelah setiap iterasi. Sebagai contoh:
-
 - While Loop (Perulangan While):
 Dalam perulangan while, pernyataan di dalam blok akan terus dieksekusi selama kondisi yang ditentukan benar. Kondisi dievaluasi sebelum eksekusi blok pernyataan. Sebagai contoh:
-
 - Do-While Loop (Perulangan Do-While):
 Do-while mirip dengan while, tetapi evaluasi kondisinya dilakukan setelah blok pernyataan dieksekusi, sehingga setidaknya satu iterasi pasti terjadi.
 
